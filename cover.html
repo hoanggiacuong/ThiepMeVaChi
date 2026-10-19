@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- Ảnh bìa xem trước Telegram. Tạo lại cover.png: xem README -->
+<html lang="vi"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Dancing+Script:wght@700&family=Playfair+Display:wght@600&display=swap">
+<style>
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:radial-gradient(120% 90% at 50% 0%,#2a1650 0%,#0b0718 65%)}
+canvas{position:absolute;inset:0}
+.chu{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fdf3f6}
+.nho{font:500 22px "Be Vietnam Pro",sans-serif;letter-spacing:.3em;color:#c9b8d6;text-transform:uppercase}
+h1{margin:14px 0 4px;font:700 120px/1.05 "Dancing Script",cursive;color:#ff7aa2;text-shadow:0 0 40px rgba(255,122,162,.6)}
+h2{margin:0;font:600 64px/1.2 "Playfair Display",serif;letter-spacing:.06em}
+</style></head><body>
+<canvas id="c" width="1200" height="630"></canvas>
+<div class="chu"><div class="nho">Có một bất ngờ nhỏ</div><h1>Chúc mừng</h1><h2>20 · 10</h2></div>
+<script>
+var c=document.getElementById("c").getContext("2d"),r=function(a,b){return a+Math.random()*(b-a)};
+for(var i=0;i<160;i++){c.fillStyle="rgba(255,255,255,"+r(.2,.8)+")";c.beginPath();c.arc(r(0,1200),r(0,630),r(.5,1.6),0,7);c.fill()}
+c.globalCompositeOperation="lighter";
+[[170,170,"#ffd27a"],[1040,150,"#ff7aa2"],[110,480,"#c9a7ff"],[1090,470,"#ffd27a"],[300,80,"#ff7aa2"],[900,60,"#8fe3ff"]].forEach(function(b){
+  for(var k=0;k<140;k++){var g=r(0,6.28),d=r(10,110)*Math.pow(Math.random(),.4),x=b[0]+Math.cos(g)*d,y=b[1]+Math.sin(g)*d+d*d/600;
+    var s=c.createRadialGradient(x,y,0,x,y,5);s.addColorStop(0,"#fff");s.addColorStop(.3,b[2]);s.addColorStop(1,"rgba(0,0,0,0)");
+    c.globalAlpha=r(.4,1);c.fillStyle=s;c.fillRect(x-5,y-5,10,10)}});
+</script></body></html>
