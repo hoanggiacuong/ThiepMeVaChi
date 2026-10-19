@@ -16,8 +16,8 @@ var THIEP = {
 
   nguoi: {
     me: {
-      goi: "Mẹ",
-      tenNgan: "Mẹ yêu",
+      goi: "Mẹ Bé",
+      tenNgan: "Mẹ Bé",
       ban: "mẹ",
       chao: "Mẹ ơi,",
       loiChuc: [
@@ -34,10 +34,10 @@ var THIEP = {
       phongCach: ""
     },
     chi: {
-      goi: "Chị",
-      tenNgan: "Chị yêu",
+      goi: "Chị Phương",
+      tenNgan: "Chị Phương",
       ban: "chị",
-      chao: "Chị ơi,",
+      chao: "Chị Phương ơi,",
       loiChuc: [
         "20/10 năm nay em gửi chị một tấm thiệp nhỏ do chính tay em làm.",
         "Cảm ơn chị vì luôn là người em có thể tin cậy, lúc thì như bạn, lúc lại lo cho em như mẹ.",
