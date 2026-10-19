@@ -1,7 +1,7 @@
 // Nội dung thiệp. Sửa file này rồi chạy: node tao-trang.js
 // Mỗi người một mục trong "nguoi"; khoá (me, chi) là tên file link: .../me.html, .../chi.html
 //   goi:     tên trên phong thư và trong ô xem trước khi gửi link ("Gửi Mẹ")
-//   tenNgan: chữ đom đóm tụ lại ở màn đầu (ngắn thôi cho rõ)
+//   tenNgan: chữ đom đóm tụ lại ở màn đầu (ngắn thôi cho rõ, "\n" để xuống dòng)
 //   ban:     cách gọi trong các câu chung ("Kéo xuống, có thư cho mẹ")
 //   chao:    dòng mở đầu lá thư
 //   loiChuc: các đoạn trong lá thư, mỗi chuỗi là một đoạn
@@ -35,7 +35,7 @@ var THIEP = {
     },
     chi: {
       goi: "Chị Phương",
-      tenNgan: "Chị Phương",
+      tenNgan: "Chị\nPhương", // hai dòng cho chữ to hơn trên điện thoại
       ban: "chị",
       chao: "Chị Phương ơi,",
       loiChuc: [
