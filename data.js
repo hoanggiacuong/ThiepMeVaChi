@@ -19,11 +19,9 @@ var THIEP = {
       goi: "Mẹ Bé",
       tenNgan: "Mẹ Bé",
       ban: "mẹ",
-      chao: "Mẹ ơi,",
+      chao: "Gửi mẹ Bé!",
       loiChuc: [
-        "Hôm nay 20/10, con muốn gửi mẹ một lá thư nhỏ, vì có những điều ngày thường con chưa nói thành lời.",
-        "Cảm ơn mẹ vì cả đời đã lo cho con, từ bữa cơm, giấc ngủ, đến những lần con đi xa mẹ vẫn gọi hỏi con ăn gì chưa.",
-        "Con chúc mẹ luôn khoẻ mạnh, vui vẻ, bớt lo nghĩ đi một chút. Con thương mẹ nhiều lắm ❤️"
+        "20/10 Chúc mẹ nhiều sức khỏe, vui vẻ hạnh phúc."
       ],
       loiKy: "Thương mẹ nhiều,",
       ky: "Con trai của mẹ",
@@ -37,11 +35,10 @@ var THIEP = {
       goi: "Chị Phương",
       tenNgan: "Chị\nPhương", // hai dòng cho chữ to hơn trên điện thoại
       ban: "chị",
-      chao: "Chị Phương ơi,",
+      chao: "Chị Phương!",
       loiChuc: [
-        "20/10 năm nay em gửi chị một tấm thiệp nhỏ do chính tay em làm.",
-        "Cảm ơn chị vì luôn là người em có thể tin cậy, lúc thì như bạn, lúc lại lo cho em như mẹ.",
-        "Chúc chị luôn xinh đẹp, khoẻ mạnh, công việc suôn sẻ và lúc nào cũng được yêu thương thật nhiều nhé 💐"
+        "Chúc mừng 20-10",
+        "Chúc chị luôn xinh đẹp, khoẻ mạnh, công việc suôn sẻ nhiều yêu thương."
       ],
       loiKy: "Thương chị,",
       ky: "Em trai của chị",
